@@ -1,6 +1,8 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import ToDoList from './components/ToDoList';
+import Header from './components/Header';
+
 import { v4 as uuidv4 } from 'uuid';
 
 const localStorageKey = 'todoApp.todos'
@@ -41,6 +43,7 @@ function App() {
 
   return (
     <>
+    <Header />
     <ToDoList todos={todos} toggleTodo={toggleTodo} />
     <input ref= {todoNameRef} type="text" />  
     <button onClick={handleAddToDo}> Add ToDo</button>
