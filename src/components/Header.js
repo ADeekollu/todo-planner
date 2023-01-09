@@ -4,8 +4,11 @@ import React from 'react';
 import '../styles/Header.css';
 
 const styles = {
+    headerStyle: {
+      background: 'rgb(73, 122, 179)',
+    },
     headingStyle: {
-    fontSize: '100px',
+      fontSize: '100px',
     },
   };
 
