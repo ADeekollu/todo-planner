@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/todo-planner/static/js/main.426a70d6.js",
+    "main.css": "/todo-planner/static/css/main.66290021.css",
+    "main.js": "/todo-planner/static/js/main.07571d8a.js",
     "index.html": "/todo-planner/index.html",
-    "main.426a70d6.js.map": "/todo-planner/static/js/main.426a70d6.js.map"
+    "main.66290021.css.map": "/todo-planner/static/css/main.66290021.css.map",
+    "main.07571d8a.js.map": "/todo-planner/static/js/main.07571d8a.js.map"
   },
   "entrypoints": [
-    "static/js/main.426a70d6.js"
+    "static/css/main.66290021.css",
+    "static/js/main.07571d8a.js"
   ]
 }
