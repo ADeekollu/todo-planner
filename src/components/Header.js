@@ -5,7 +5,7 @@ import '../styles/Header.css';
 
 const styles = {
     headerStyle: {
-      background: 'rgb(73, 122, 179)',
+      background: 'red',
     },
     headingStyle: {
       fontSize: '100px',
